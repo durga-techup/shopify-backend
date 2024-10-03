@@ -1,11 +1,9 @@
-module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/',
-        permanent: true,
-      },
-    ]
-  },
+{
+  "redirects": [
+    { 
+      "source": "/view-source",
+      "destination": "https://github.com/vercel/vercel", 
+      "permanent": true
+    }
+  ]
 }
